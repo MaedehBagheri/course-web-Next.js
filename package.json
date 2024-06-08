@@ -1,5 +1,5 @@
 {
-  "name": "next-app",
+  "name": "final-project",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,12 +9,34 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "14.2.3",
-    "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@heroicons/react": "^1.0.6",
+    "@mui/material": "^5.8.4",
+    "axios": "^0.27.2",
+    "formik": "^2.2.9",
+    "next": "12.1.6",
+    "next-redux-wrapper": "^7.0.5",
+    "query-string": "^7.1.1",
+    "react": "18.1.0",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-dom": "18.1.0",
+    "react-hot-toast": "^2.2.0",
+    "react-icons": "^4.4.0",
+    "react-redux": "^8.0.2",
+    "redux": "^4.2.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.1",
+    "use-reducer-async": "^2.1.1",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
-    "eslint": "8.57.0",
-    "eslint-config-next": "14.2.3"
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/typography": "^0.5.2",
+    "autoprefixer": "^10.4.7",
+    "eslint": "8.17.0",
+    "eslint-config-next": "12.1.6",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24"
   }
 }
